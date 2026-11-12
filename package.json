@@ -1,0 +1,12 @@
+{
+  "name": "my-peer-server",
+  "version": "1.0.0",
+  "description": "My own PeerJS server on Cloudflare",
+  "main": "server.js",
+  "scripts": {
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
